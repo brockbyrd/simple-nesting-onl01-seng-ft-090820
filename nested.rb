@@ -82,8 +82,12 @@ def adding_matz
         }
      }
      
-     new_programmer = [:yukihiro_matsumoto] => {
-     programmer_hash
+     new_programmer = [:yukihiro_matsumoto] => 
+      { 
+        :known_for => "Ruby",
+        :languages => ["LISP", "C"]
+      }
+     programmer_hash << new_programmer
 end
 
 def changing_alan
